@@ -9,7 +9,7 @@ export default function Projects() {
     {
       image: websiteImg1,
       description: "Basic personal portfolio website. Built with React and Tailwind CSS",
-      link: "https://github.com/Kathirveljeeva", // Replace with actual project link
+      link: "https://github.com/Kathirvel1202/Protfolio", // Replace with actual project link
     },
     {
       image: websiteImg2,
