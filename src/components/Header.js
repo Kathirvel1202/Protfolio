@@ -14,7 +14,7 @@ export default function Header() {
       {/* Desktop Navigation */}
       <nav className="hidden md:block">
         <ul className="flex space-x-8 text-white font-medium">
-          <li><a className="hover:text-primary transition-colors" href="/home">Home</a></li>
+          <li><a className="hover:text-primary transition-colors" href="#home">Home</a></li>
           <li><a className="hover:text-primary transition-colors" href="#about">About</a></li>
           <li><a className="hover:text-primary transition-colors" href="#project">Projects</a></li>
           <li><a className="hover:text-primary transition-colors" href="#resume">resume</a></li>
@@ -26,7 +26,7 @@ export default function Header() {
       {toggleMenu && (
         <nav className="absolute top-16 right-6 bg-secondary shadow-md rounded-lg p-4 md:hidden">
           <ul className="flex flex-col space-y-4 text-white font-medium">
-            <li><a className="hover:text-primary transition-colors" href="/home">Home</a></li>
+            <li><a className="hover:text-primary transition-colors" href="#home">Home</a></li>
             <li><a className="hover:text-primary transition-colors" href="#about">About</a></li>
             <li><a className="hover:text-primary transition-colors" href="#project">Projects</a></li>
             <li><a className="hover:text-primary transition-colors" href="#resume">resume</a></li>
